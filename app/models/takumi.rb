@@ -1,0 +1,2 @@
+class Takumi < ApplicationRecord
+end
