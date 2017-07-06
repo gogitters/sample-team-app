@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'seyba/index'
+
   root to: 'pages#index'
   get "/pages", to: 'pages#index'
 
