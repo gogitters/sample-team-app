@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get '/herrera', to: "herrera#index"
+
   root to: 'pages#index'
   get "/pages", to: 'pages#index'
 
