@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'astors/index'
+
   root to: 'pages#index'
   get "/pages", to: 'pages#index'
 
